@@ -4,6 +4,6 @@ $ctxs = array(
 'tambov'
 );
 foreach ($ctxs as $ctx) {
-    $modx->runProcessor('context/create', array('key' => $ctx);
+    $modx->runProcessor('context/create', array('key' => $ctx));
     return;
 }
